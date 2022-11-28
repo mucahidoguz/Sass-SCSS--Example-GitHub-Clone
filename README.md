@@ -9,4 +9,4 @@ SASS (SCSS) kullanımı ile GitHub profil sayfası baz alınarak örnek yapılm�
 
 ### Proje önizlemesi 
 
-![](./assets/ScreenRecorderProject3.mp4)
+![](./assets/preview.gif)
