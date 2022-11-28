@@ -1,0 +1,44 @@
+.hr {
+  border-top: 0.25px solid rgb(196, 194, 194);
+  justify-content: center;
+  padding-top: 40px;
+  max-width: 70%;
+  margin-left: 300px;
+}
+
+.Footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    padding-left: 10px;
+    padding-top: 3px;
+    margin-right: 40px;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  svg {
+    width: 32px;
+    height: 32px;
+    color: rgb(139, 139, 139);
+    background-color: #f8f6f6;
+    border-radius: 50%;
+  }
+
+  a {
+    padding-left: 50px;
+    padding-top: 15px;
+    color: rgb(26, 125, 207);
+    font-size: 13px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+    &:hover {
+      color: rgb(87, 167, 233);
+    }
+  }
+}

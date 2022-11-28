@@ -1,0 +1,62 @@
+.Header {
+  background-color: $header-bg;
+  margin: 5px 50px;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  padding: 10px;
+
+  .HeaderLogo {
+    margin-right: 15px;
+    svg {
+      width: 32px;
+      height: 32px;
+      color: #fff;
+    }
+  }
+  .HeaderSearch {
+    position: relative;
+    input {
+      background-color: #fff;
+      width: 300px;
+      height: 25px;
+      padding: 7px;
+      font-size: 15px;
+      color: black;
+      border: none;
+      margin-right: 16px;
+      border-radius: 3px;
+    }
+    svg {
+      position: absolute;
+      right: 25px;
+      top: 4px;
+      color: black;
+    }
+  }
+
+  .HeaderMenu {
+    a {
+      color: #fff;
+      font-family: $my-font;
+      margin-right: 10px;
+    }
+  }
+
+  .HeaderRightBar {
+    margin-left: auto;
+    padding-right: 20px;
+
+    svg {
+      color: #fff;
+      margin-right: 10px;
+    }
+    img {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      margin-bottom: 8px;
+    }
+  }
+}
